@@ -1,5 +1,7 @@
 # gruvbox-startpage
-A gruvbox-dark themed startpage
+![image](https://github.com/tiz314/gruvbox-startpage/assets/63679072/4e1d3402-f52b-48b9-86fb-6e3be398b56b)
+
+A **gruvbox-dark** themed **startpage**
 
 For some gruvbox themed wallpapers, check [this](https://github.com/AngelJumbo/gruvbox-wallpapers)
 

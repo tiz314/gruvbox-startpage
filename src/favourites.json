@@ -1,0 +1,16 @@
+{
+    "favourites": [
+        {
+            "name": "GitHub",
+            "icon": "fa-github", 
+            "link": "https://github.com/"
+        }
+    ], 
+    "services": [
+        {
+            "name": "Portainer",
+            "icon": "fa-docker",
+            "link" : "https://127.0.0.1:9443"
+        }
+    ]
+}

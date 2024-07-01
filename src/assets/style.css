@@ -1,0 +1,81 @@
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
+
+
+#main {
+    background-image: url("images/gruvbox-wallpapers/wallpapers/irl/berries.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.link {
+    text-decoration: none;
+    color: #d79921;
+}
+
+#consoleWrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 95vw;
+    margin-bottom: 5vh;
+}
+
+#console {
+    padding: 1vh;
+    background-color: rgba(30, 30, 30, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#input-line {
+    display: flex;
+}
+
+#input-line::before {
+    margin-right: 5px;
+}
+
+.prompt {
+    margin-right: 5px;
+}
+
+#console-input {
+    background: none;
+    border: none;
+    color: #d79921;
+    outline: none;
+    font-size: 1rem;
+    width: 65vw;
+}
+
+#user {
+    color: #458588;
+}
+
+#at {
+    color: #cc241d;
+
+}
+
+#hostname {
+    color: #8ec07c;
+}
+
+
+.favourite,
+.service {
+    transition: 0.2s;
+    padding: 1vh;
+    background-color: rgba(30, 30, 30, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.favourite:hover,
+.service:hover {
+    transition: 0.2s;
+    transform: scale(1.04);
+}
